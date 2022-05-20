@@ -1,0 +1,12 @@
+Una vez instalados todos los programas se debe importar las librerias
+
+xlwt
+serial
+
+Para realizar esto abrimos la consola de Windows y ejecutamos los comandos
+
+pip install xlwt
+pip install serial
+
+Una vez realizado esto a la hora de hacer correr el codigo se debe instalar la
+extencion de Python para que nos reconozca el codigo.
