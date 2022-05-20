@@ -7,5 +7,3 @@ columnas = ["Nro Lectura","Valor"]
 serialToExcel.setColumns(["Nro Lectura","Valor"])
 serialToExcel.setRecordsNumber(10)
 serialToExcel.readPort()
-
-serialToExcel.writeFile("archivo1.xls")
