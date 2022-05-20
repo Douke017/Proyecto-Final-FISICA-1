@@ -1,9 +1,10 @@
 from serialToExcel import SerialToExcel
 
-serialToExcel = SerialToExcel("COM36",115200)
+serialToExcel = SerialToExcel("COM3",9600)
 
 columnas = ["Nro Lectura","Valor"]
 
 serialToExcel.setColumns(["Nro Lectura","Valor"])
-serialToExcel.setRecordsNumber(10)
+serialToExcel.setRecordsNumber(20)
 serialToExcel.readPort()
+serialToExcel.writeFile("TomaDeMedidas.xls")
